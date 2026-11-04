@@ -5,25 +5,14 @@ members = [
     "bits",
     "dao",
     "metrics",
-    "descent",
-    "rp_forest",
     "utils",
-    "r_descent",
-    "sisap2025",
-    "sisap2026",
-    "big_knn",
-    "hamiltonians",
 ]
 
 [workspace.dependencies]
 utils = { path = "utils" }
-rp_forest = { path = "rp_forest" }
 metrics = { path = "metrics" }
-descent = { path = "descent" }
-r_descent = { path = "r_descent" }
 bits = { path = "bits" }
 dao = { path = "dao" }
-hamiltonians = { path = "hamiltonians" }
 
 anndists = "0.1.2"
 anyhow = "1.0.98"
@@ -33,8 +22,6 @@ byte-unit = { version = "5.1.6", default-features = false, features = [
     "byte",
     "rust_decimal",
 ] }
-chrono = "0.4.41"
-clap = { version = "4.5.38", features = ["derive"] }
 csv = "1.3.1"
 deepsize = { version = "0.2.0", features = ["smallvec"] }
 divan = "0.1.21"
@@ -43,7 +30,6 @@ hdf5 = { version = "0.10.1", package = "hdf5-metno", features = [
     "static",
     "f16",
 ] }
-itertools = "0.14.0"
 log = "0.4.27"
 ndarray = { version = "0.16.1", features = [
     "serde",
@@ -51,19 +37,14 @@ ndarray = { version = "0.16.1", features = [
     "rayon",
     "deepsize",
 ] }
-parking_lot = "0.12.3"
-pretty_env_logger = "0.5.0"
 rand = "0.9.1"
 rand_chacha = "0.9.0"
 rand_distr = "0.5.1"
 randperm-crt = "0.3.0"
 rayon = "1.10.0"
 serde = { version = "1.0.219", features = ["derive"] }
-serde_json = "1.0"
 toml = "0.8.22"
 tracing = "0.1.41"
-tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
-twox-hash = "2.1.0"
 wide = "0.7.32"
 half = "2.7.1"
 
