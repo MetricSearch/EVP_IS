@@ -41,10 +41,9 @@ To highlight the significance of our work, our experiments show that, in compari
 Rust Code
 ---------
 
-All the Rust code in this repo that was used in the experiments reported in the paper may be executed from the following three shell scripts:
+All the Rust code in this repo that was used in the experiments reported in the paper may be executed from the following two shell scripts:
 
     run_all_benchmarks.sh
-    run_allinfosyss_experiments.sh
     run_infosys_experiments.sh
 
 Matlab Code
